@@ -1,0 +1,65 @@
+* {box-sizing: border-box;
+    text-align: center;}
+a { text-decoration: none;}
+body {position: relative;}
+
+@media screen and (min-width: 375px) {
+    .apply { display: block;
+        position: absolute;
+        top: 0px; left: 0px;
+        font-size: 20px; font-weight: 700;
+        background-color: #FFC82C;
+        color: #000; width: 1440px; height: 80px;
+        padding-top: 26px;}
+    
+    .apply-content {
+        background-image: url(./칼리오페.jpg);
+        width: 1440px; height: 900px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;}
+    
+    .apply-content h1 { font-size: 50px;
+            font-weight: 700; color: #fff;}
+    
+    .btn a {color: white;}
+    
+    .btn { font-size: 18px; font-weight: 700;
+        width: 180px; height: 56px;
+        border: 2px solid white;
+        border-radius: 16px;
+        background-color: rgba(0,0,0,0.5);}
+}
+
+@media screen and (max-width: 375px) {
+    .apply { display: block;
+        position: absolute;
+        bottom: 0px; left: 0px;
+        font-size: 20px; font-weight: 700;
+        background-color: #FFC82C;
+        color: #000; width: 375px; height: 64px;
+        padding-top: 18px;
+        }
+    
+    .apply-content {
+        background-image: url(./칼리오페.jpg);
+        width: 375px; height: 667px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 20px;}
+    
+    .apply-content h1 { font-size: 32px;
+            font-weight: 900; color: #fff;
+        margin-top: 0px;}
+    
+    .btn a {color: white;}
+    
+    .btn { font-size: 18px; font-weight: 700;
+        width: 160px; height: 52px;
+        border: 2px solid white;
+        border-radius: 16px;
+        background-color: rgba(0,0,0,0.5);}
+}
